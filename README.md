@@ -8,7 +8,7 @@ This project is a simple containerized Spring Boot REST service (`employee-servi
 *   **Repository:** [https://github.com/kumarlalit002/nagp-employee-service](https://github.com/kumarlalit002/nagp-employee-service)
 *   **Docker Image:** [https://hub.docker.com/r/kumarlalit002/employee-service](https://hub.docker.com/r/kumarlalit002/employee-service)
 *   **Local API Endpoint:** [http://employee.local/employees](http://employee.local/employees)
-*   **Demo Video:** `[Insert video link here]`
+*   **Demo Video:** [Google Drive Demo Video](https://drive.google.com/file/d/1AkIWwSSiRyCVZPb2918BlZaAkPmkRHwm/view?usp=drive_link)
 
 ---
 
