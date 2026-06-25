@@ -21,14 +21,14 @@ graph TD
     Client[External Client] -->|employee.local| Ingress[Ingress Controller]
     Ingress -->|port 8080| Service[employee-service ClusterIP]
     
-    subgraph Service Tier (4 Replicas)
+    subgraph "Service Tier (4 Replicas)"
         Service --> Pod1[employee-pod-1]
         Service --> Pod2[employee-pod-2]
         Service --> Pod3[employee-pod-3]
         Service --> Pod4[employee-pod-4]
     end
     
-    subgraph DB Tier (1 Replica)
+    subgraph "DB Tier (1 Replica)"
         Pod1 & Pod2 & Pod3 & Pod4 -->|postgres-service:5432| DBService[postgres-service]
         DBService --> DBPod[postgres-pod]
         DBPod --> Volume[postgres-pvc]
